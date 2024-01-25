@@ -11,9 +11,7 @@ import {
   faGit, 
   faGithub, 
 
-  faBalanceScale, 
-  faTasks,
-  faToolbox,
+ 
 
 } from '@fortawesome/free-brands-svg-icons';
 
@@ -52,7 +50,7 @@ const TextShpere = () => {
         keep: true,
       };
 
-      TagCloud(container, texts, options);
+      TagCloud(container, texts, options, );
     };
   }, []);
 
