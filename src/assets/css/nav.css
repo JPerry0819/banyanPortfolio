@@ -57,6 +57,12 @@ a {
   border: none;
 }
 
+.rightSide{
+  position: absolute;
+  left: 80%;
+ top: 0%;
+}
+
 .navModal {
   background-color: #b847ba;
   position: fixed;
