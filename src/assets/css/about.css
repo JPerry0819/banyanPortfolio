@@ -1,0 +1,90 @@
+/* Default styles for all screen sizes */
+.aboutMeBlurb {
+    color: white;
+    text-wrap: wrap;
+    text-align: justify;
+}
+
+.aboutContainer {
+    width: 25vw;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.sphere-words2 {
+    position: absolute;
+    top: 165%;
+    left: 99%;
+}
+
+.wordnext2 {
+    box-shadow: 16px 4px 6px #b847ba;
+}
+
+.me {
+    width: 35%;
+    position: absolute;
+    left: 200%;
+    top: 1%;
+    box-shadow: 14px 3px 16px #b847ba;
+    border-radius: 25%;
+}
+
+.sphereImg2 {
+    box-shadow: 0 4px 16px #b847ba;
+    height: 200px;
+}
+
+/* Media query for screens between 601 and 900 pixels */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .sphere-words2 {
+        position: absolute;
+        top: 165%;
+        left: 99%;
+    }
+    .aboutMeBlurb {
+        color: white;
+        text-wrap: wrap;
+        text-align: justify;
+    }
+    
+    .aboutContainer {
+        width: 25vw;
+        position: absolute;
+        left: 15%;
+        top: 15%;
+    }
+    
+  }
+  
+  /* Media query for screens larger than 901 pixels */
+  @media only screen and (min-width: 901px) {
+    .sphere-words2 {
+        position: absolute;
+        top:129%;
+        left: 99%;
+    }
+    .aboutMeBlurb {
+        color: white;
+        text-wrap: wrap;
+        text-align: justify;
+        width: 155%;
+    }
+    
+    .aboutContainer {
+        width: 25vw;
+        position: absolute;
+        left: 15%;
+        top: 0.5%;
+    }
+    .me {
+        width: 35%;
+        position: absolute;
+        left: 200%;
+        top: 31%;
+        box-shadow: 14px 3px 16px #b847ba;
+        border-radius: 25%;
+    }
+    
+  }

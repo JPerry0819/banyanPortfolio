@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+}
+/* My Initials */
+
+.myJ{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+.myB{
+    position: absolute;
+    left: 42%;
+    top: 31%;
+}
+
+/* Sphere Words */
+
+.sphere-words {
+    position: absolute;
+    top: 11%;
+    left: 43%;
+    width: 322px;
+    height: 319px;
+    margin: 0 auto;
+    perspective: 915px;
+    transform-style: preserve-3d;
+    
+  }
+.sphere-words4{
+  perspective: 300px; /* added perspective */
+    transform-style: preserve-3d; /* added transform-style */
+}
+.sphere-words5{
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  perspective: 900px; /* added perspective */
+    transform-style: preserve-3d; /* added transform-style */
+}
+.sphere-words6{
+
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    perspective: 900px; /* added perspective */
+      transform-style: preserve-3d; /* added transform-style */
+  }
+.wordchange{
+
+  color: white
+}
+  .wordNext {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+    height: 50px;
+    border-radius: 30%;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    transform-style: preserve-3d;
+    transform-origin: 40% 60% -20px;
+  }
+  .thirdLayer{
+    position: absolute;
+    top: 5%;
+    left: 55%;
+  }
+  .wordOne{
+   
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 100px;
+      border-radius: 30%;
+      color: white;
+    
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.4s ease;
+      transform-style: preserve-3d; /* added transform-style */
+      transform-origin: 30% 20% -10px; /* set the transform origin */
+ 
+  }
+  .sphereImg{
+    box-shadow: 0 4px 16px #b847ba;
+  }
+
+ 
+  
+/* Default styles for all screen sizes */
+
+/* Media query for screens smaller than 600 pixels */
+@media only screen and (max-width: 600px) {
+  /* Styles for screens smaller than 600 pixels */
+}
+
+/* Media query for screens between 601 and 900 pixels */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  /* Styles for screens between 601 and 900 pixels */
+}
+
+/* Media query for screens larger than 901 pixels */
+@media only screen and (min-width: 901px) {
+  /* Styles for screens larger than 901 pixels */
+}
