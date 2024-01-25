@@ -1,5 +1,9 @@
 import React from 'react'
 import '../../assets/css/nav.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faStackOverflow, faEnvelope } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope as solidEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 
 const OtherNav = () => {
     return (
@@ -37,7 +41,27 @@ const OtherNav = () => {
                 </ul>
             </nav>
 
+<nav className="rightSide">
+     {/* GitHub */}
+     <a href="https://github.com/JPerry0819" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} />
+      </a>
 
+      {/* LinkedIn */}
+      <a href="www.linkedin.com/in/jessica-bruner-39a27529a" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faLinkedin} />
+      </a>
+
+      {/* Stack Overflow */}
+      <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faStackOverflow} />
+      </a>
+
+      {/* Envelope (Email) */}
+      <a href="mailto:jessicaperry0819@gmail.com">
+        <FontAwesomeIcon icon={solidEnvelope} />
+      </a>
+</nav>
 
 
 
