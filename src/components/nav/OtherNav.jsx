@@ -1,13 +1,13 @@
 import React from 'react'
 import '../../assets/css/nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faStackOverflow, faEnvelope } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faStackOverflow} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope as solidEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 const OtherNav = () => {
     return (
-        <div>
+        <div className='otherNav'>  
             <nav>
                 <ul>
                     <li>

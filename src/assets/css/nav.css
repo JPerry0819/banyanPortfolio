@@ -59,7 +59,7 @@ a {
 
 .rightSide{
   position: absolute;
-  left: 80%;
+  left: 271%;
  top: 0%;
 }
 
@@ -77,6 +77,9 @@ a {
   z-index: -3;
 
 
+}
+.otherNav{
+  z-index: 2;
 }
 
 @keyframes flipModal {
@@ -156,7 +159,7 @@ li {
   .navLink {
     color: white;
     position: absolute;
-    top: 57%;
+    top: 73%;
     left: 40%;
     font-size: 20px;
     text-decoration: none;
@@ -185,7 +188,7 @@ li {
   .navLink {
     color: white;
     position: absolute;
-    top: 75%;
+    top: 73%;
     left: 40%;
     font-size: 20px;
     text-decoration: none;
@@ -214,7 +217,7 @@ li {
   .navLink {
     color: white;
     position: absolute;
-    top: 57%;
+    top: 73%;
     left: 40%;
     font-size: 20px;
     text-decoration: none;

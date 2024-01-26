@@ -20,6 +20,7 @@
     font-weight: 600;
     letter-spacing: 0.0615em;
     font-size: 1.3em;
+    z-index: -1;
 }
 
 /* Change color of each text in sphere on hover   */
